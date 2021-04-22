@@ -2,7 +2,10 @@ import numpy as np
 import pandas as pd
 import sys
 
-search = sys.argv[1]
+if (str.isdigit(sys.argv[1])):
+ search = int(sys.argv[1])
+else:
+ search = sys.argv[1]
 inxls = "data/"+sys.argv[2]+".xlsx"
 
 excel = pd.read_excel(open(inxls, 'rb')).to_numpy()
