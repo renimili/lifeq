@@ -1,2 +1,5 @@
 Here the data is stored in .xlsx files
 the Smoking file is not actual data, just for test.
+
+For Income.xlsx, I looked at the data of the CBS life expectancy and income pdf and put the ratio of their average life expectancy,
+(80.6) to the life expectancy per income group and put those ratios on our ideal of 90
